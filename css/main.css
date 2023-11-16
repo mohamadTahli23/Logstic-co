@@ -276,6 +276,7 @@ a {
 .landing  {
     position: relative;
     background-image: url(../images/background-alt.jpg);
+    background-position: center;
     background-size: cover;
     min-height: calc(100vh - 80px);
 }
@@ -366,7 +367,7 @@ a {
     background-color:#eee;
     border: 5px solid var(--main-color);
     border-radius: 4px;
-    max-width: 85%;
+    max-width: 80%;
 }
 
 @media (max-width: 768px) {
@@ -374,7 +375,7 @@ a {
         margin-bottom: 20px;
     }
     .about .image-holder {
-        max-width: 90%;
+        max-width: 85%;
     }
 }
 
@@ -434,8 +435,8 @@ a {
     border-radius: 4px;
     padding: 5px;
     z-index: 1;
-    overflow: hidden;
-    max-width: 80%;
+    overflow-x: hidden;
+    max-width: 70%;
 }
 
 .about .image-hold-his::before {
