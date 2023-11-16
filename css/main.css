@@ -774,7 +774,7 @@ a {
 
 /* End Our services  */
 
-/* Start product  cycle */
+/* Start product cycle */
 
 .product-cycle {
     padding-top: 80px;
@@ -816,6 +816,7 @@ a {
 
 .product-cycle .box {
     max-width: 55%;
+    transition: 0.4s;
 }
 
 
@@ -839,7 +840,11 @@ a {
     border-color: var(--main-color) transparent transparent transparent;
     border-width: 8px;
     right: 4px;
-    bottom: -10px; 
+    bottom: -13px; 
+}
+
+.product-cycle .box:hover {
+    transform: translateY(-5px);
 }
 
 @media (max-width: 767.98px) { 
@@ -853,7 +858,11 @@ a {
     padding: 25px;
     max-width: 320px;
     margin: 0 auto;
+    border-top: 4px solid var(--main-color);
+    box-shadow: 0 2px 15px rgb(0 0 0 / 10%);
 }
+
+
 
 /* @media (min-width: 767.98px) { 
     .product-cycle .content {
